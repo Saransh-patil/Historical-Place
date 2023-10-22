@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+
+    <style>
+        body{
+            background-color: rgb(255, 255, 163);
+        }
+        .star{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+a{
+    margin-right: 70px;
+}
+*{
+    padding: 0;
+    margin: 0;
+} 
+    </style>
+</head>
+<body>
+    <div class="star">
+        <a href="histo.html">Home</a>
+        <a href="loginpage.html">Login</a>
+        <a href="contact.html">Contacts</a>
+        <a href="food.html">Food</a>
+        <a href="review.html">Review Qn&Ans</a>
+    
+          
+    
+    </div>
+  <br>
+  <br>  
+    <table border="2">
+        
+        <form>
+            <tr>
+                <th>Name</th>
+                <td><input type="text" name="txtname"></td>
+            </tr><br>
+            <tr>
+                <th>Address</th>
+                <td><textarea name="address"> </textarea></td>
+            </tr>
+            <tr><th>Father's Name</th>
+            <td><input type="text"></td>
+            </tr>
+            <tr><th>Mother's Name</th>
+                <td><input type="text"></td>
+                </tr>
+            <tr>
+                <th>Date of birth</th>
+                <td><input type="date" name="date"></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td><input type="radio" id="male" name="Gender">Male<input type="radio" id="female" name="Gender">Female<input type="radio" id="other" name="Gender">other</td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" name="textpassword"></td>
+            </tr>
+            <tr>
+                <th>E-mail id</th>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <th>Contact no.</th>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th>Whatsapp no.</th>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th>Image upload</th>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+            <th>City</th>
+            <td><select>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Goa</option>
+                <option>odissa</option>
+            </select>
+
+            </td>
+            </tr>
+            <tr>
+                <th>Qualification</th>
+                <td><input type="checkbox" >12th<input type="checkbox">UG<input type="checkbox">PG<input type="checkbox">Diploma
+            </tr>
+            <tr>
+              <td>  <input type="submit" name="submit">
+                <input type="reset"></td>
+            </tr>
+        </form>
+    </table>
+    
+</body>
+</html>
